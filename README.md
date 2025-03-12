@@ -1,33 +1,57 @@
-# WD05-System Kesehatan
+# WD05-system-kesehatan-a11202214393
 
-![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-Apache-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ## 📋 Deskripsi Proyek
 
-Proyek ini merupakan sistem informasi kesehatan yang dikembangkan menggunakan framework Laravel. Sistem ini dirancang untuk memudahkan pengelolaan data kesehatan, menyediakan antarmuka yang user-friendly, dan mengintegrasikan berbagai aspek layanan kesehatan dalam satu platform.
+Proyek ini bertujuan untuk mengembangkan sebuah sistem manajemen kesehatan online yang memungkinkan interaksi yang efisien antara pasien dan dokter melalui platform digital. Dengan meningkatnya kebutuhan akan layanan kesehatan yang mudah diakses dan terorganisir, sistem ini dirancang untuk menyederhanakan proses pendaftaran, penjadwalan, dan manajemen perawatan kesehatan.
 
-> **Catatan:** Proyek ini masih dalam tahap awal pengembangan, saat ini baru menyelesaikan setup dasar Laravel.
+Platform ini akan menjadi solusi terintegrasi yang memudahkan pasien dalam mengakses layanan kesehatan dan membantu dokter dalam mengelola informasi pasien serta persediaan obat.
 
-## 🚀 Setup & Instalasi
+## 🚀 Status Proyek
 
-Berikut adalah langkah-langkah yang telah dilakukan untuk mengatur proyek ini:
+Status saat ini: **Setup awal Laravel selesai ✅**
+
+Sesuai penugasan pertama, telah melakukan:
+- ✅ Instalasi Composer
+- ✅ Instalasi Laravel menggunakan Composer
+- ✅ Instalasi web server (XAMPP)
+- ✅ Pembuatan repository GitHub
+- ✅ Push project Laravel ke repository GitHub
+
+## 👤 User Stories
+
+### Pasien
+1. **Register** - Sebagai seorang pasien baru, saya ingin mendaftar ke sistem dengan mengisi nama, alamat, dan nomor handphone, agar saya dapat menggunakan layanan kesehatan.
+2. **Login** - Sebagai seorang pasien, saya ingin masuk ke sistem menggunakan informasi login saya, agar saya dapat mengakses layanan kesehatan.
+3. **Periksa** - Sebagai seorang pasien, saya ingin membuat janji periksa dengan dokter, agar saya dapat mendapatkan diagnosis dan pengobatan.
+
+### Dokter
+1. **Login** - Sebagai seorang dokter, saya ingin masuk ke sistem menggunakan informasi login saya, agar saya dapat mengakses layanan kesehatan.
+2. **Memeriksa** - Sebagai seorang dokter, saya ingin mencatat hasil pemeriksaan pasien, termasuk catatan medis dan biaya pemeriksaan (biaya statis 150.000 + biaya obat yang dipilih), agar pasien dapat mendapatkan perawatan yang tepat.
+3. **CRUD Obat** - Sebagai seorang dokter, saya ingin menambah, melihat, mengubah, dan menghapus informasi obat (nama obat, kemasan, harga), agar saya dapat mengelola persediaan obat dengan efektif.
+
+## 🛠️ Setup & Instalasi
 
 ### Prasyarat
 
-- [XAMPP](https://www.apachefriends.org/download.html) (PHP 8.1+ dengan MySQL)
+- [XAMPP](https://www.apachefriends.org/download.html) (PHP 8.2+)
 - [Composer](https://getcomposer.org/download/)
 - [Node.js & NPM](https://nodejs.org/en/download/) (untuk asset build)
 
 ### Langkah Instalasi
 
 1. **Instal XAMPP**
-   - Download dan install XAMPP dengan PHP versi 8.1 atau lebih tinggi
+   - Download dan install XAMPP dengan PHP versi 8.2 atau lebih tinggi
    - Pastikan server Apache dan MySQL berjalan dengan baik
 
 2. **Instal Composer**
-   - Download dan install Composer sebagai dependency manager untuk PHP
+   ```bash
+   # Download dan ikuti panduan instalasi Composer
+   ```
 
 3. **Instal Laravel Installer**
    ```bash
@@ -39,7 +63,6 @@ Berikut adalah langkah-langkah yang telah dilakukan untuk mengatur proyek ini:
    laravel new WD05-system-kesehatan
    ```
    - Pilih opsi "None" untuk starter kits
-   - Konfigurasikan database dan preferensi lainnya
 
 5. **Masuk ke direktori proyek**
    ```bash
@@ -58,59 +81,40 @@ Berikut adalah langkah-langkah yang telah dilakukan untuk mengatur proyek ini:
 
 8. Akses aplikasi di [http://localhost:8000](http://localhost:8000)
 
-## 🛠️ Teknologi yang Digunakan
+## 📂 Struktur Database
 
-- **[Laravel 10.x](https://laravel.com/)** - Framework PHP
+Sistem ini menggunakan model database dengan entitas utama:
+- **Pasien** - Menyimpan data pasien
+- **Dokter** - Menyimpan data dokter
+- **Obat** - Menyimpan informasi tentang obat
+- **Pemeriksaan** - Menyimpan catatan pemeriksaan
+- **Detail Pemeriksaan** - Menyimpan detail obat yang digunakan dalam pemeriksaan
+
+## ⚙️ Teknologi yang Digunakan
+
+- **[Laravel](https://laravel.com/)** - Framework PHP
 - **[MySQL](https://www.mysql.com/)** - Database Management System
-- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
-- **[Alpine.js](https://alpinejs.dev/)** - JavaScript framework untuk interaksi
-- **[Vite](https://vitejs.dev/)** - Build tool dan development server
+- **[XAMPP](https://www.apachefriends.org/index.html)** - PHP development environment
+- **[Composer](https://getcomposer.org/)** - Dependency Manager untuk PHP
+- **[GitHub](https://github.com/)** - Version Control
 
-## 📂 Struktur Proyek
+## 📝 To-Do List
 
-```
-WD05-system-kesehatan/
-├── app/                      # Core application code
-├── bootstrap/                # App bootstrapping
-├── config/                   # Configuration files
-├── database/                 # Database migrations & seeders
-├── public/                   # Publicly accessible files
-├── resources/                # Views and uncompiled assets
-├── routes/                   # Application routes
-├── storage/                  # Application storage
-├── tests/                    # Automated tests
-├── vendor/                   # Composer dependencies
-└── ...
-```
-
-## 🔍 Fitur yang Direncanakan
-
-- [ ] Autentikasi Pengguna
-- [ ] Dashboard Admin
-- [ ] Manajemen Pasien
-- [ ] Manajemen Dokter
-- [ ] Penjadwalan Konsultasi
-- [ ] Rekam Medis Digital
-- [ ] Sistem Pembayaran
-- [ ] Laporan & Analitik
-
-## 📚 Sumber Belajar Laravel
-
-- [Dokumentasi Laravel](https://laravel.com/docs)
-- [Laracasts](https://laracasts.com)
-- [Laravel News](https://laravel-news.com/)
-- [Laravel Podcast](https://laravelpodcast.com/)
-
-## 📝 Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+- [x] Setup project Laravel
+- [x] Push ke repository GitHub
+- [ ] Implementasi registrasi pasien
+- [ ] Implementasi login
+- [ ] Implementasi pembuatan janji periksa
+- [ ] Implementasi CRUD obat
+- [ ] Implementasi pencatatan hasil pemeriksaan
 
 ## 👨‍💻 Pengembang
 
-- Student ID: A11.2022.14393
+- NIM: A11.2022.14393
+- Kelas: WD05
 
 ---
 
 <p align="center">
-  <sub>Dibuat dengan ❤️ menggunakan Laravel</sub>
+  <sub>Dibuat untuk memenuhi tugas Bengkel Koding 2025</sub>
 </p>
