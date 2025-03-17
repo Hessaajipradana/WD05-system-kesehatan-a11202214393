@@ -31,18 +31,6 @@ Sesuai penugasan pertama, telah melakukan:
 - ✅ Pembuatan repository GitHub
 - ✅ Push project Laravel ke repository GitHub
 
-## 👤 User Stories
-
-### Pasien
-1. **Register** - Sebagai seorang pasien baru, saya ingin mendaftar ke sistem dengan mengisi nama, alamat, dan nomor handphone, agar saya dapat menggunakan layanan kesehatan.
-2. **Login** - Sebagai seorang pasien, saya ingin masuk ke sistem menggunakan informasi login saya, agar saya dapat mengakses layanan kesehatan.
-3. **Periksa** - Sebagai seorang pasien, saya ingin membuat janji periksa dengan dokter, agar saya dapat mendapatkan diagnosis dan pengobatan.
-
-### Dokter
-1. **Login** - Sebagai seorang dokter, saya ingin masuk ke sistem menggunakan informasi login saya, agar saya dapat mengakses layanan kesehatan.
-2. **Memeriksa** - Sebagai seorang dokter, saya ingin mencatat hasil pemeriksaan pasien, termasuk catatan medis dan biaya pemeriksaan (biaya statis 150.000 + biaya obat yang dipilih), agar pasien dapat mendapatkan perawatan yang tepat.
-3. **CRUD Obat** - Sebagai seorang dokter, saya ingin menambah, melihat, mengubah, dan menghapus informasi obat (nama obat, kemasan, harga), agar saya dapat mengelola persediaan obat dengan efektif.
-
 ## 🛠️ Setup & Instalasi
 
 ### Prasyarat
@@ -90,15 +78,6 @@ Sesuai penugasan pertama, telah melakukan:
 
 8. Akses aplikasi di [http://localhost:8000](http://localhost:8000)
 
-## 📂 Struktur Database
-
-Sistem ini menggunakan model database dengan entitas utama:
-- **Pasien** - Menyimpan data pasien
-- **Dokter** - Menyimpan data dokter
-- **Obat** - Menyimpan informasi tentang obat
-- **Pemeriksaan** - Menyimpan catatan pemeriksaan
-- **Detail Pemeriksaan** - Menyimpan detail obat yang digunakan dalam pemeriksaan
-
 ## ⚙️ Teknologi yang Digunakan
 
 - **[Laravel](https://laravel.com/)** - Framework PHP
@@ -106,16 +85,6 @@ Sistem ini menggunakan model database dengan entitas utama:
 - **[XAMPP](https://www.apachefriends.org/index.html)** - PHP development environment
 - **[Composer](https://getcomposer.org/)** - Dependency Manager untuk PHP
 - **[GitHub](https://github.com/)** - Version Control
-
-## 📝 To-Do List
-
-- [x] Setup project Laravel
-- [x] Push ke repository GitHub
-- [ ] Implementasi registrasi pasien
-- [ ] Implementasi login
-- [ ] Implementasi pembuatan janji periksa
-- [ ] Implementasi CRUD obat
-- [ ] Implementasi pencatatan hasil pemeriksaan
 
 ## 👨‍💻 Pengembang
 
