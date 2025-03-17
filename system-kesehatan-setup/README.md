@@ -5,21 +5,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/laravel/framework/actions">
-    <img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status">
-  </a>
-  <a href="https://packagist.org/packages/laravel/framework">
-    <img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads">
-  </a>
-  <a href="https://packagist.org/packages/laravel/framework">
-    <img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version">
-  </a>
-  <a href="https://packagist.org/packages/laravel/framework">
-    <img src="https://img.shields.io/packagist/l/laravel/framework" alt="License">
-  </a>
-</p>
-
-<p align="center">
   <a href="https://codeium.com/profile/villainium">
     <img src="https://codeium.com/badges/user/villainium/autocomplete" alt="Codeium Autocomplete">
   </a>
@@ -34,46 +19,6 @@
   <img src="https://img.shields.io/badge/XAMPP-Apache-FB7A24?style=for-the-badge&logo=xampp&logoColor=white">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
 </p>
-
----
-
-## 📋 Deskripsi Proyek
-
-Proyek ini bertujuan untuk mengembangkan sebuah **sistem manajemen kesehatan online** yang memungkinkan interaksi yang efisien antara pasien dan dokter melalui platform digital.  
-
-🩺 **Fitur utama:**  
-✅ Pendaftaran pasien online  
-✅ Penjadwalan konsultasi  
-✅ Manajemen rekam medis  
-✅ Pengelolaan stok obat  
-
-Dengan sistem ini, diharapkan layanan kesehatan menjadi **lebih cepat, efisien, dan mudah diakses**.
-
----
-
-## 🚀 Status Proyek
-
-Saat ini proyek dalam tahap **setup awal**, dengan langkah-langkah berikut telah diselesaikan:  
-- ✅ Instalasi **Composer & Laravel**  
-- ✅ Konfigurasi **XAMPP & Database**  
-- ✅ Pembuatan **repository GitHub**  
-- ✅ Push awal proyek Laravel ke GitHub  
-
----
-
-## 🛠️ Setup & Instalasi
-
-### **📌 Prasyarat**
-Pastikan Anda sudah menginstal:  
-- [XAMPP](https://www.apachefriends.org/download.html) (PHP 8.2+)  
-- [Composer](https://getcomposer.org/download/)  
-- [Node.js & NPM](https://nodejs.org/en/download/)  
-
-### **📌 Cara Instalasi**
-1. **Clone repository ini**  
-   ```sh
-   git clone https://github.com/Hessaajipradana/tugas-wd05-14363.git
-   cd tugas-wd05-14363/system-kesehatan-setup
 
 ---
 
