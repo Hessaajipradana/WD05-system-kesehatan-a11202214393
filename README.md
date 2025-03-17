@@ -1,120 +1,121 @@
-# WD05-system-kesehatan-a11202214393
+# ✨ Welcome to My Digital Universe! ✨
 
-![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![XAMPP](https://img.shields.io/badge/XAMPP-Apache-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+<div align="center">
+  
+  ## 🚀 villainium 🚀
+  
+  ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Hello%20World!&fontSize=90&animation=fadeIn)
 
-## 📋 Deskripsi Proyek
-
-Proyek ini bertujuan untuk mengembangkan sebuah sistem manajemen kesehatan online yang memungkinkan interaksi yang efisien antara pasien dan dokter melalui platform digital. Dengan meningkatnya kebutuhan akan layanan kesehatan yang mudah diakses dan terorganisir, sistem ini dirancang untuk menyederhanakan proses pendaftaran, penjadwalan, dan manajemen perawatan kesehatan.
-
-Platform ini akan menjadi solusi terintegrasi yang memudahkan pasien dalam mengakses layanan kesehatan dan membantu dokter dalam mengelola informasi pasien serta persediaan obat.
-
-## 🚀 Status Proyek
-
-Status saat ini: **Setup awal Laravel selesai ✅**
-
-Sesuai penugasan pertama, telah melakukan:
-- ✅ Instalasi Composer
-- ✅ Instalasi Laravel menggunakan Composer
-- ✅ Instalasi web server (XAMPP)
-- ✅ Pembuatan repository GitHub
-- ✅ Push project Laravel ke repository GitHub
-
-## 👤 User Stories
-
-### Pasien
-1. **Register** - Sebagai seorang pasien baru, saya ingin mendaftar ke sistem dengan mengisi nama, alamat, dan nomor handphone, agar saya dapat menggunakan layanan kesehatan.
-2. **Login** - Sebagai seorang pasien, saya ingin masuk ke sistem menggunakan informasi login saya, agar saya dapat mengakses layanan kesehatan.
-3. **Periksa** - Sebagai seorang pasien, saya ingin membuat janji periksa dengan dokter, agar saya dapat mendapatkan diagnosis dan pengobatan.
-
-### Dokter
-1. **Login** - Sebagai seorang dokter, saya ingin masuk ke sistem menggunakan informasi login saya, agar saya dapat mengakses layanan kesehatan.
-2. **Memeriksa** - Sebagai seorang dokter, saya ingin mencatat hasil pemeriksaan pasien, termasuk catatan medis dan biaya pemeriksaan (biaya statis 150.000 + biaya obat yang dipilih), agar pasien dapat mendapatkan perawatan yang tepat.
-3. **CRUD Obat** - Sebagai seorang dokter, saya ingin menambah, melihat, mengubah, dan menghapus informasi obat (nama obat, kemasan, harga), agar saya dapat mengelola persediaan obat dengan efektif.
-
-## 🛠️ Setup & Instalasi
-
-### Prasyarat
-
-- [XAMPP](https://www.apachefriends.org/download.html) (PHP 8.2+)
-- [Composer](https://getcomposer.org/download/)
-- [Node.js & NPM](https://nodejs.org/en/download/) (untuk asset build)
-
-### Langkah Instalasi
-
-1. **Instal XAMPP**
-   - Download dan install XAMPP dengan PHP versi 8.2 atau lebih tinggi
-   - Pastikan server Apache dan MySQL berjalan dengan baik
-
-2. **Instal Composer**
-   ```bash
-   # Download dan ikuti panduan instalasi Composer
-   ```
-
-3. **Instal Laravel Installer**
-   ```bash
-   composer global require laravel/installer
-   ```
-
-4. **Buat Proyek Laravel Baru**
-   ```bash
-   laravel new WD05-system-kesehatan
-   ```
-   - Pilih opsi "None" untuk starter kits
-
-5. **Masuk ke direktori proyek**
-   ```bash
-   cd WD05-system-kesehatan
-   ```
-
-6. **Install dependencies JavaScript dan build assets**
-   ```bash
-   npm install && npm run build
-   ```
-
-7. **Jalankan server pengembangan**
-   ```bash
-   php artisan serve
-   ```
-
-8. Akses aplikasi di [http://localhost:8000](http://localhost:8000)
-
-## 📂 Struktur Database
-
-Sistem ini menggunakan model database dengan entitas utama:
-- **Pasien** - Menyimpan data pasien
-- **Dokter** - Menyimpan data dokter
-- **Obat** - Menyimpan informasi tentang obat
-- **Pemeriksaan** - Menyimpan catatan pemeriksaan
-- **Detail Pemeriksaan** - Menyimpan detail obat yang digunakan dalam pemeriksaan
-
-## ⚙️ Teknologi yang Digunakan
-
-- **[Laravel](https://laravel.com/)** - Framework PHP
-- **[MySQL](https://www.mysql.com/)** - Database Management System
-- **[XAMPP](https://www.apachefriends.org/index.html)** - PHP development environment
-- **[Composer](https://getcomposer.org/)** - Dependency Manager untuk PHP
-- **[GitHub](https://github.com/)** - Version Control
-
-## 📝 To-Do List
-
-- [x] Setup project Laravel
-- [x] Push ke repository GitHub
-- [ ] Implementasi registrasi pasien
-- [ ] Implementasi login
-- [ ] Implementasi pembuatan janji periksa
-- [ ] Implementasi CRUD obat
-- [ ] Implementasi pencatatan hasil pemeriksaan
-
-## 👨‍💻 Pengembang
-
-- NIM: A11.2022.14393
-- Kelas: WD05
+  ### 🌟 _Building dreams with code, one commit at a time_ 🌟
+  
+  [![autocomplete](https://codeium.com/badges/user/villainium/autocomplete)](https://codeium.com/profile/villainium) [![streak](https://codeium.com/badges/v2/user/villainium/streak)](https://codeium.com/profile/villainium)
+  
+</div>
 
 ---
 
-<p align="center">
-  <sub>Dibuat untuk memenuhi tugas Bengkel Koding 2025</sub>
-</p>
+## 🧙‍♂️ About Me 
+
+Halo Dunia! 👋 I'm a passionate developer, problem-solver, and digital creator.
+
+- 🔭 Currently working on **exciting secret projects**
+- 🌱 Always learning **new technologies and frameworks**
+- 💡 Love exploring **innovative solutions to complex problems**
+- 🎮 When not coding: **gaming, reading, and exploring the outdoors**
+- ☕ Powered by: **Coffee and curiosity**
+
+> "Code is poetry written for both humans and machines to appreciate." 💭
+
+---
+
+## 🛠️ Tech Stack 
+
+<div align="center">
+  
+### Languages & Frameworks
+  
+📱 Frontend: ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+
+⚙️ Backend: ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/-Java-007396?style=flat&logo=java&logoColor=white)
+
+🗄️ Database: ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql)
+
+🧰 Tools: ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code)
+
+</div>
+
+---
+
+## 📊 GitHub Stats 
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=villainium&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=villainium&layout=compact&langs_count=7&theme=radical"/>
+</div>
+
+---
+
+## 🔥 Streak Stats
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=villainium&theme=radical" alt="villainium's streak"/>
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/villainium) 
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/villainium) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/villainium)
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/villainium)
+
+</div>
+
+---
+
+## 💖 Support My Work
+
+<div align="center">
+  
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/villainium) 
+
+</div>
+
+---
+
+<div align="center">
+  
+### 👀 Profile Views
+  
+![Profile Views](https://komarev.com/ghpvc/?username=villainium&color=blueviolet)
+
+### 🎵 Currently Listening To
+
+[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/villainium)
+  
+</div>
+
+---
+
+<div align="center">
+  
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+### 😂 Random Dev Meme
+<img src="https://random-memer.herokuapp.com/" width="512px"/>
+
+</div>
+
+---
+
+<div align="center">
+  
+  ### 🙏 Terima Kasih Sudah Berkunjung! (Thanks for visiting!)
+  
+  ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
+  
+</div>
