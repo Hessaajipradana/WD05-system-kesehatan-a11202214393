@@ -8,7 +8,7 @@
 </p>
 
 [![autocomplete](https://codeium.com/badges/user/villainium/autocomplete)](https://codeium.com/profile/villainium)
-
+[![streak](https://codeium.com/badges/v2/user/villainium/streak)](https://codeium.com/profile/villainium)
 ![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![XAMPP](https://img.shields.io/badge/XAMPP-Apache-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
