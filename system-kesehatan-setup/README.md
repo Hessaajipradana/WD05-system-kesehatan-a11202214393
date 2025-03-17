@@ -7,60 +7,123 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# WD05-system-kesehatan-a11202214393
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-Apache-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📋 Deskripsi Proyek
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Proyek ini bertujuan untuk mengembangkan sebuah sistem manajemen kesehatan online yang memungkinkan interaksi yang efisien antara pasien dan dokter melalui platform digital. Dengan meningkatnya kebutuhan akan layanan kesehatan yang mudah diakses dan terorganisir, sistem ini dirancang untuk menyederhanakan proses pendaftaran, penjadwalan, dan manajemen perawatan kesehatan.
 
-## Learning Laravel
+Platform ini akan menjadi solusi terintegrasi yang memudahkan pasien dalam mengakses layanan kesehatan dan membantu dokter dalam mengelola informasi pasien serta persediaan obat.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🚀 Status Proyek
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Status saat ini: **Setup awal Laravel selesai ✅**
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Sesuai penugasan pertama, telah melakukan:
+- ✅ Instalasi Composer
+- ✅ Instalasi Laravel menggunakan Composer
+- ✅ Instalasi web server (XAMPP)
+- ✅ Pembuatan repository GitHub
+- ✅ Push project Laravel ke repository GitHub
 
-## Laravel Sponsors
+## 👤 User Stories
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Pasien
+1. **Register** - Sebagai seorang pasien baru, saya ingin mendaftar ke sistem dengan mengisi nama, alamat, dan nomor handphone, agar saya dapat menggunakan layanan kesehatan.
+2. **Login** - Sebagai seorang pasien, saya ingin masuk ke sistem menggunakan informasi login saya, agar saya dapat mengakses layanan kesehatan.
+3. **Periksa** - Sebagai seorang pasien, saya ingin membuat janji periksa dengan dokter, agar saya dapat mendapatkan diagnosis dan pengobatan.
 
-### Premium Partners
+### Dokter
+1. **Login** - Sebagai seorang dokter, saya ingin masuk ke sistem menggunakan informasi login saya, agar saya dapat mengakses layanan kesehatan.
+2. **Memeriksa** - Sebagai seorang dokter, saya ingin mencatat hasil pemeriksaan pasien, termasuk catatan medis dan biaya pemeriksaan (biaya statis 150.000 + biaya obat yang dipilih), agar pasien dapat mendapatkan perawatan yang tepat.
+3. **CRUD Obat** - Sebagai seorang dokter, saya ingin menambah, melihat, mengubah, dan menghapus informasi obat (nama obat, kemasan, harga), agar saya dapat mengelola persediaan obat dengan efektif.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## 🛠️ Setup & Instalasi
 
-## Contributing
+### Prasyarat
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- [XAMPP](https://www.apachefriends.org/download.html) (PHP 8.2+)
+- [Composer](https://getcomposer.org/download/)
+- [Node.js & NPM](https://nodejs.org/en/download/) (untuk asset build)
 
-## Code of Conduct
+### Langkah Instalasi
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1. **Instal XAMPP**
+   - Download dan install XAMPP dengan PHP versi 8.2 atau lebih tinggi
+   - Pastikan server Apache dan MySQL berjalan dengan baik
 
-## Security Vulnerabilities
+2. **Instal Composer**
+   ```bash
+   # Download dan ikuti panduan instalasi Composer
+   ```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+3. **Instal Laravel Installer**
+   ```bash
+   composer global require laravel/installer
+   ```
 
-## License
+4. **Buat Proyek Laravel Baru**
+   ```bash
+   laravel new WD05-system-kesehatan
+   ```
+   - Pilih opsi "None" untuk starter kits
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+5. **Masuk ke direktori proyek**
+   ```bash
+   cd WD05-system-kesehatan
+   ```
+
+6. **Install dependencies JavaScript dan build assets**
+   ```bash
+   npm install && npm run build
+   ```
+
+7. **Jalankan server pengembangan**
+   ```bash
+   php artisan serve
+   ```
+
+8. Akses aplikasi di [http://localhost:8000](http://localhost:8000)
+
+## 📂 Struktur Database
+
+Sistem ini menggunakan model database dengan entitas utama:
+- **Pasien** - Menyimpan data pasien
+- **Dokter** - Menyimpan data dokter
+- **Obat** - Menyimpan informasi tentang obat
+- **Pemeriksaan** - Menyimpan catatan pemeriksaan
+- **Detail Pemeriksaan** - Menyimpan detail obat yang digunakan dalam pemeriksaan
+
+## ⚙️ Teknologi yang Digunakan
+
+- **[Laravel](https://laravel.com/)** - Framework PHP
+- **[MySQL](https://www.mysql.com/)** - Database Management System
+- **[XAMPP](https://www.apachefriends.org/index.html)** - PHP development environment
+- **[Composer](https://getcomposer.org/)** - Dependency Manager untuk PHP
+- **[GitHub](https://github.com/)** - Version Control
+
+## 📝 To-Do List
+
+- [x] Setup project Laravel
+- [x] Push ke repository GitHub
+- [ ] Implementasi registrasi pasien
+- [ ] Implementasi login
+- [ ] Implementasi pembuatan janji periksa
+- [ ] Implementasi CRUD obat
+- [ ] Implementasi pencatatan hasil pemeriksaan
+
+## 👨‍💻 Pengembang
+
+- NIM: A11.2022.14393
+- Kelas: WD05
+
+---
+
+<p align="center">
+  <sub>Dibuat untuk memenuhi tugas Bengkel Koding 2025</sub>
+</p>
