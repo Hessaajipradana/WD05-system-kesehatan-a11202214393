@@ -20,12 +20,60 @@
 </p>
 
 <p align="center">
+  <a href="https://codeium.com/profile/villainium">
+    <img src="https://codeium.com/badges/user/villainium/autocomplete" alt="Codeium Autocomplete">
+  </a>
+  <a href="https://codeium.com/profile/villainium">
+    <img src="https://codeium.com/badges/v2/user/villainium/streak" alt="Codeium Streak">
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
   <img src="https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white">
   <img src="https://img.shields.io/badge/XAMPP-Apache-FB7A24?style=for-the-badge&logo=xampp&logoColor=white">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
-[![autocomplete](https://codeium.com/badges/user/villainium/autocomplete)](https://codeium.com/profile/villainium)
 </p>
+
+---
+
+## 📋 Deskripsi Proyek
+
+Proyek ini bertujuan untuk mengembangkan sebuah **sistem manajemen kesehatan online** yang memungkinkan interaksi yang efisien antara pasien dan dokter melalui platform digital.  
+
+🩺 **Fitur utama:**  
+✅ Pendaftaran pasien online  
+✅ Penjadwalan konsultasi  
+✅ Manajemen rekam medis  
+✅ Pengelolaan stok obat  
+
+Dengan sistem ini, diharapkan layanan kesehatan menjadi **lebih cepat, efisien, dan mudah diakses**.
+
+---
+
+## 🚀 Status Proyek
+
+Saat ini proyek dalam tahap **setup awal**, dengan langkah-langkah berikut telah diselesaikan:  
+- ✅ Instalasi **Composer & Laravel**  
+- ✅ Konfigurasi **XAMPP & Database**  
+- ✅ Pembuatan **repository GitHub**  
+- ✅ Push awal proyek Laravel ke GitHub  
+
+---
+
+## 🛠️ Setup & Instalasi
+
+### **📌 Prasyarat**
+Pastikan Anda sudah menginstal:  
+- [XAMPP](https://www.apachefriends.org/download.html) (PHP 8.2+)  
+- [Composer](https://getcomposer.org/download/)  
+- [Node.js & NPM](https://nodejs.org/en/download/)  
+
+### **📌 Cara Instalasi**
+1. **Clone repository ini**  
+   ```sh
+   git clone https://github.com/Hessaajipradana/tugas-wd05-14363.git
+   cd tugas-wd05-14363/system-kesehatan-setup
 
 ---
 
